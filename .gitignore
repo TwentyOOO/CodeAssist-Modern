@@ -1,38 +1,5 @@
-# Android APK files
-*.apk
-*.ap_
-*.aab
-*.jar
-
-# Decoded APK directories (too large)
+# Only ignore decoded directory (contains files with names too long for Windows)
 codeassist_decoded/
-
-# Build files
-*.dex
-*.so
-build/
-*/build/
-
-# Gradle files
-.gradle/
-
-# Local configuration file
-local.properties
-
-# IntelliJ
-*.iml
-.idea/
-
-# Cache and temporary files
-files/cache/
-
-# Large assets
-*.zip
-
-# Signing files
-*.jks
-*.keystore
-my-release-key.keystore
 
 # OS files
 .DS_Store

@@ -1,6 +1,7 @@
 # Decoded directory (contains files with paths too long for Windows/Git)
 codeassist_decoded/
 decoded_apk/
+decoded_working/
 
 # Build files
 decoded.zip

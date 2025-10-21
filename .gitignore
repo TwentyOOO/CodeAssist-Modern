@@ -6,6 +6,9 @@ decoded.zip
 *.keystore
 *.jks
 codeassist_redesigned.apk
+CodeAssist_Unsigned.apk
+CodeAssist_Aligned.apk
+*.idsig
 
 # OS files
 .DS_Store

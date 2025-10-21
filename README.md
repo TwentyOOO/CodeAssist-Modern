@@ -1,101 +1,75 @@
-# CodeAssist Modern - تصميم حديث 🎨
+# CodeAssist Modern
 
-تطبيق CodeAssist مع تصميم حديث واحترافي يستخدم نظام Ocean Wave Design System.
+A modern Android IDE for mobile development.
 
-## المميزات ✨
+## 📦 Project Structure
 
-### 🎨 التصميم الحديث
-- **نظام الألوان:** Ocean Blue (#0EA5E9) + Warm Amber (#F59E0B)
-- **خلفيات متدرجة** في جميع الصفحات
-- **بطاقات ملونة** بتدرجات جميلة للأزرار الرئيسية
-- **Material Design 3** مع زوايا دائرية وظلال محسنة
+This repository contains:
+- **Source files and projects** - All development files
+- **APK files** - Pre-built application packages
+- **Templates** - Project templates for quick start
+- **Decoded APK** - Available in 3 parts (see below)
 
-### 🏠 الصفحة الرئيسية
-- شعار التطبيق داخل دائرة بتدرج شعاعي
-- بطاقة إحصائيات ديناميكية (المشاريع، الملفات، الأسطر)
-- 4 بطاقات ملونة بتدرجات:
-  - **بنفسجي** (#667EEA) - إنشاء مشروع جديد
-  - **وردي** (#F093FB) - استنساخ Git
-  - **أزرق** (#4FACFE) - مدير المشاريع
-  - **أخضر** (#43E97B) - الإعدادات
+## 🔧 Decoded APK Files
 
-### 📋 صفحة القوالب
-- خلفية متدرجة احترافية
-- بطاقات قوالب مدمجة ومريحة
-- أيقونات بحجم مناسب (70×95dp)
-- نص واضح وسهل القراءة
+The decoded APK is split into 3 parts due to GitHub file size limits:
+- `decoded.zip.part1` (90 MB)
+- `decoded.zip.part2` (90 MB)
+- `decoded.zip.part3` (51.92 MB)
 
-## لقطات الشاشة 📸
+### How to Merge the Parts
 
-### الصفحة الرئيسية
-![Home Screen](screenshots/home.png)
+#### Windows (PowerShell):
+```powershell
+# Navigate to project directory
+cd path\to\com.tyron.code
 
-### صفحة القوالب
-![Templates](screenshots/templates.png)
+# Merge parts
+Get-Content decoded.zip.part1, decoded.zip.part2, decoded.zip.part3 -Encoding Byte -ReadCount 0 | Set-Content decoded.zip -Encoding Byte
 
-## التحميل 📥
+# Extract
+Expand-Archive decoded.zip -DestinationPath codeassist_decoded
+```
 
-### الإصدار الحالي: v1.0.0
+#### Linux/Mac:
+```bash
+# Navigate to project directory
+cd path/to/com.tyron.code
 
-**[تحميل CodeAssist-Modern.apk](https://github.com/TwentyOOO/CodeAssist-Modern/releases/latest/download/CodeAssist-Modern.apk)** (93MB)
+# Merge parts
+cat decoded.zip.part1 decoded.zip.part2 decoded.zip.part3 > decoded.zip
 
-## المتطلبات 📋
-- Android 8.0 (API 26) أو أحدث
-- 100MB مساحة تخزين
+# Extract
+unzip decoded.zip
+mv decoded codeassist_decoded
+```
 
-## التثبيت 🔧
+#### Alternative (Simple):
+```bash
+# Windows (Command Prompt)
+copy /b decoded.zip.part1+decoded.zip.part2+decoded.zip.part3 decoded.zip
 
-1. قم بتحميل ملف APK
-2. افتح الملف على جهازك الأندرويد
-3. اسمح بالتثبيت من مصادر غير معروفة إذا لزم الأمر
-4. اتبع خطوات التثبيت
+# Then extract the decoded.zip file
+```
 
-## التغييرات من النسخة الأصلية 🔄
+## 📱 APK Files Included
 
-### التصميم
-- ✅ نظام ألوان Ocean Wave الحديث
-- ✅ خلفيات متدرجة في جميع الصفحات
-- ✅ بطاقات بتصاميم Material Design 3
-- ✅ أيقونات وأزرار محسنة
-- ✅ مسافات وهوامش محسنة (8dp Grid System)
+- `codeassist_modern.apk` (92.55 MB)
+- `codeassist_modern2.apk` (92.55 MB)
+- `codeassist_modern_signed.apk` (92.54 MB)
+- `com-tyron-code-29-66222127-02451f313eec1f1029bbaa3c3f048542.apk` (91.22 MB)
 
-### الإصلاحات
-- ✅ إصلاح مشاكل التوافق
-- ✅ تحسين الأداء
-- ✅ إصلاح الأزرار غير القابلة للنقر
-- ✅ جعل الإحصائيات ديناميكية
+## 🚀 Quick Start
 
-## الملفات المعدلة 📝
+1. Clone the repository
+2. Merge the decoded parts (if needed)
+3. Open in your preferred IDE
+4. Start developing!
 
-### Layouts
-- `home_fragment.xml` - الصفحة الرئيسية
-- `wizard_fragment.xml` - صفحة القوالب
-- `wizard_template_item.xml` - بطاقات القوالب
+## 📄 License
 
-### Resources
-- `colors.xml` - نظام الألوان الجديد
-- `colors_modern.xml` - ألوان إضافية للتصميم الحديث
-- `gradient_background.xml` - خلفية متدرجة رئيسية
-- `logo_background_gradient.xml` - تدرج شعاعي للشعار
-- `status_indicator_active.xml` - مؤشر الحالة
-
-## الاعتمادات 🙏
-
-- **CodeAssist الأصلي**: [tyron12233/CodeAssist](https://github.com/tyron12233/CodeAssist)
-- **التصميم والتطوير**: تم بمساعدة Claude Code
-
-## الترخيص 📄
-
-نفس ترخيص CodeAssist الأصلي - GPL-3.0
-
-## المساهمة 🤝
-
-المساهمات مرحب بها! يرجى فتح Issue أو Pull Request.
-
-## الملاحظات 📝
-
-هذا تعديل غير رسمي على CodeAssist الأصلي. جميع الحقوق محفوظة لمطوري CodeAssist الأصليين.
+Check the original CodeAssist project for license information.
 
 ---
 
-**صنع بـ ❤️ للمطورين العرب**
+**Note**: The decoded APK directory contains ~73,000 smali files and is necessary for full project functionality.

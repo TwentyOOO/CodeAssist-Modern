@@ -10,6 +10,8 @@ CodeAssist_Unsigned.apk
 CodeAssist_Aligned.apk
 CodeAssist_Professional_Design.apk
 CodeAssist_Professional_Aligned.apk
+CodeAssist_Professional_Fixed.apk
+CodeAssist_Pro_Aligned.apk
 *.idsig
 
 # OS files

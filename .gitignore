@@ -1,4 +1,4 @@
-# Only ignore decoded directory (contains files with names too long for Windows)
+# Decoded directory (contains files with paths too long for Windows/Git)
 codeassist_decoded/
 
 # OS files

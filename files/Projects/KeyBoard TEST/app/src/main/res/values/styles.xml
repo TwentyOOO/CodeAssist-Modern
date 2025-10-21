@@ -1,9 +1,0 @@
-<!-- app/src/main/res/values/styles.xml -->
-<resources>
-<style name="Theme.KeyboardTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-<item name="android:statusBarColor">@android:color/transparent</item>
-<item name="android:navigationBarColor">@color/bg_app</item>
-<item name="android:windowBackground">@color/bg_app</item>
-<item name="android:colorBackground">@color/bg_app</item>
-</style>
-</resources>

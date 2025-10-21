@@ -1,9 +1,0 @@
-<!-- app/src/main/res/drawable/ic_enter.xml -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-android:width="24dp" android:height="24dp"
-android:viewportWidth="24" android:viewportHeight="24"
-android:tint="@color/icon_tint">
-<path
-android:fillColor="@android:color/white"
-android:pathData="M19,7v4H8.83l2.58,-2.59L10,7l-5,5 5,5 1.41,-1.41L8.83,13H21V7z"/>
-</vector>

@@ -1,0 +1,571 @@
+================================================================
+🌊 Ocean Wave Design System - جميع أكواد التصميم
+================================================================
+
+📋 المحتويات:
+1. ملف الألوان (colors.xml)
+2. ملف الأبعاد (dimens.xml)
+3. الشاشة الرئيسية (home_fragment.xml)
+4. عناصر المشاريع (project_item.xml)
+5. مدير الملفات (file_manager_fragment.xml)
+6. شاشة المحرر (code_editor_fragment.xml)
+7. واجهة Template (wizard_template_item.xml)
+8. واجهة Template المحسنة (wizard_template_item_modern.xml)
+
+================================================================
+🎨 1. ملف الألوان (colors.xml)
+================================================================
+المسار: res/values/colors.xml
+
+الألوان الرئيسية المعدلة:
+
+<!-- Ocean Wave Primary Colors -->
+<color name="colorAccent">#ff0ea5e9</color>
+<color name="colorBackground">#ff0c1e2e</color>
+<color name="colorControlNormal">#ffe0f2fe</color>
+<color name="colorPrimary">#ff0ea5e9</color>
+<color name="colorPrimaryDark">#ff0284c7</color>
+<color name="colorSecondary">#fff59e0b</color>
+<color name="colorSurface">#ff1e3a52</color>
+
+<!-- Material Design 3 - Dark Theme -->
+<color name="md_theme_dark_background">#ff0c1e2e</color>
+<color name="md_theme_dark_inversePrimary">#ff0284c7</color>
+<color name="md_theme_dark_inverseSurface">#ffe0f2fe</color>
+<color name="md_theme_dark_onBackground">#ffe0f2fe</color>
+<color name="md_theme_dark_onPrimary">#ff082f49</color>
+<color name="md_theme_dark_onPrimaryContainer">#ffe0f2fe</color>
+<color name="md_theme_dark_onSecondary">#ff78350f</color>
+<color name="md_theme_dark_onSecondaryContainer">#fffef3c7</color>
+<color name="md_theme_dark_onSurface">#ffe0f2fe</color>
+<color name="md_theme_dark_onSurfaceVariant">#ffbae6fd</color>
+<color name="md_theme_dark_primary">#ff38bdf8</color>
+<color name="md_theme_dark_primaryContainer">#ff0284c7</color>
+<color name="md_theme_dark_secondary">#fffbbf24</color>
+<color name="md_theme_dark_secondaryContainer">#ffd97706</color>
+<color name="md_theme_dark_surface">#ff1e3a52</color>
+<color name="md_theme_dark_surfaceVariant">#ff2d5070</color>
+<color name="md_theme_dark_tertiary">#ff7dd3fc</color>
+
+<!-- Material Design 3 - Light Theme -->
+<color name="md_theme_light_background">#fff0f9ff</color>
+<color name="md_theme_light_inversePrimary">#ff7dd3fc</color>
+<color name="md_theme_light_inverseSurface">#ff1e3a52</color>
+<color name="md_theme_light_onBackground">#ff0c4a6e</color>
+<color name="md_theme_light_onPrimaryContainer">#ff075985</color>
+<color name="md_theme_light_onSecondaryContainer">#ff92400e</color>
+<color name="md_theme_light_onSurface">#ff0c4a6e</color>
+<color name="md_theme_light_onSurfaceVariant">#ff0369a1</color>
+<color name="md_theme_light_primary">#ff0ea5e9</color>
+<color name="md_theme_light_primaryContainer">#ffe0f2fe</color>
+<color name="md_theme_light_secondary">#fff59e0b</color>
+<color name="md_theme_light_secondaryContainer">#fffef3c7</color>
+<color name="md_theme_light_surfaceVariant">#ffe0f2fe</color>
+<color name="md_theme_light_tertiary">#ff0284c7</color>
+<color name="md_theme_light_tertiaryContainer">#ffe0f2fe</color>
+
+================================================================
+📏 2. ملف الأبعاد (dimens.xml)
+================================================================
+المسار: res/values/dimens.xml
+
+<!-- Ocean Wave Design System - 8dp Grid System -->
+
+<!-- Spacing -->
+<dimen name="spacing_xs">4.0dip</dimen>
+<dimen name="spacing_sm">8.0dip</dimen>
+<dimen name="spacing_md">16.0dip</dimen>
+<dimen name="spacing_lg">24.0dip</dimen>
+<dimen name="spacing_xl">32.0dip</dimen>
+<dimen name="spacing_xxl">48.0dip</dimen>
+
+<!-- Corner Radius -->
+<dimen name="radius_xs">4.0dip</dimen>
+<dimen name="radius_sm">8.0dip</dimen>
+<dimen name="radius_md">12.0dip</dimen>
+<dimen name="radius_lg">16.0dip</dimen>
+<dimen name="radius_xl">20.0dip</dimen>
+<dimen name="radius_xxl">28.0dip</dimen>
+<dimen name="radius_full">999.0dip</dimen>
+
+<!-- Elevation -->
+<dimen name="elevation_xs">1.0dip</dimen>
+<dimen name="elevation_sm">2.0dip</dimen>
+<dimen name="elevation_md">4.0dip</dimen>
+<dimen name="elevation_lg">6.0dip</dimen>
+<dimen name="elevation_xl">8.0dip</dimen>
+<dimen name="elevation_xxl">12.0dip</dimen>
+
+<!-- Text Sizes -->
+<dimen name="text_xs">12.0sp</dimen>
+<dimen name="text_sm">14.0sp</dimen>
+<dimen name="text_md">16.0sp</dimen>
+<dimen name="text_lg">18.0sp</dimen>
+<dimen name="text_xl">20.0sp</dimen>
+<dimen name="text_xxl">24.0sp</dimen>
+<dimen name="text_xxxl">32.0sp</dimen>
+
+<!-- Icon Sizes -->
+<dimen name="icon_sm">16.0dip</dimen>
+<dimen name="icon_md">24.0dip</dimen>
+<dimen name="icon_lg">32.0dip</dimen>
+<dimen name="icon_xl">48.0dip</dimen>
+
+================================================================
+🏠 3. الشاشة الرئيسية (home_fragment.xml)
+================================================================
+المسار: res/layout/home_fragment.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/home_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:liftOnScroll="true"
+        android:elevation="@dimen/elevation_md">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@id/toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="64.0dip"
+            app:title="@string/app_name"
+            app:titleCentered="true"
+            android:paddingStart="@dimen/spacing_md"
+            android:paddingEnd="@dimen/spacing_md" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/scrolling_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="@dimen/spacing_lg">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@id/app_icon"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_marginTop="@dimen/spacing_xl"
+                android:src="@mipmap/ic_launcher"
+                android:elevation="@dimen/elevation_sm"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearance="@style/RoundedCorners" />
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+                android:id="@id/app_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_md"
+                android:text="@string/app_name"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/app_icon" />
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                android:id="@id/app_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xs"
+                android:text="app_version"
+                android:alpha="0.6"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/app_title" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@id/header"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xl"
+                app:cardCornerRadius="@dimen/radius_xl"
+                app:cardElevation="@dimen/elevation_lg"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/app_version"
+                app:strokeWidth="0.0dip">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="@dimen/spacing_lg">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@id/createNewProject"
+                        android:layout_width="fill_parent"
+                        android:layout_height="64.0dip"
+                        android:layout_marginBottom="@dimen/spacing_md"
+                        android:text="@string/create_new_project"
+                        android:textAlignment="textStart"
+                        android:textSize="@dimen/text_md"
+                        app:icon="@drawable/ic_baseline_add_24"
+                        app:iconGravity="start"
+                        app:iconPadding="@dimen/spacing_md"
+                        app:iconSize="@dimen/icon_md"
+                        app:cornerRadius="@dimen/radius_md" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@id/gitCloneRepo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="64.0dip"
+                        android:layout_marginBottom="@dimen/spacing_md"
+                        android:text="@string/git_clone_repo"
+                        android:textAlignment="textStart"
+                        android:textSize="@dimen/text_md"
+                        app:icon="@drawable/ic_git"
+                        app:iconGravity="start"
+                        app:iconPadding="@dimen/spacing_md"
+                        app:iconSize="@dimen/icon_md"
+                        app:cornerRadius="@dimen/radius_md" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@id/openProjectManager"
+                        android:layout_width="fill_parent"
+                        android:layout_height="64.0dip"
+                        android:layout_marginBottom="@dimen/spacing_md"
+                        android:text="@string/project_manager"
+                        android:textAlignment="textStart"
+                        android:textSize="@dimen/text_md"
+                        app:icon="@drawable/round_folder_20"
+                        app:iconGravity="start"
+                        app:iconPadding="@dimen/spacing_md"
+                        app:iconSize="@dimen/icon_md"
+                        app:cornerRadius="@dimen/radius_md" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@id/configureSettings"
+                        android:layout_width="fill_parent"
+                        android:layout_height="64.0dip"
+                        android:text="@string/configure_settings"
+                        android:textAlignment="textStart"
+                        android:textSize="@dimen/text_md"
+                        app:icon="@drawable/ic_settings"
+                        app:iconGravity="start"
+                        app:iconPadding="@dimen/spacing_md"
+                        app:iconSize="@dimen/icon_md"
+                        app:cornerRadius="@dimen/radius_md" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+================================================================
+📦 4. عناصر المشاريع (project_item.xml)
+================================================================
+المسار: res/layout/project_item.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@id/header"
+        android:focusable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_margin="@dimen/spacing_sm"
+        app:cardCornerRadius="@dimen/radius_lg"
+        app:cardElevation="@dimen/elevation_md"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeWidth="0.0dip">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing_md">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@id/icon"
+                android:layout_width="56.0dip"
+                android:layout_height="56.0dip"
+                android:layout_marginEnd="@dimen/spacing_md"
+                android:src="@mipmap/ic_launcher"
+                app:shapeAppearance="@style/RoundedCorners" />
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:textSize="@dimen/text_xl"
+                    android:textStyle="bold"
+                    android:ellipsize="marquee"
+                    android:id="@id/title"
+                    android:fadingEdge="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:marqueeRepeatLimit="marquee_forever" />
+
+                <TextView
+                    android:textSize="@dimen/text_sm"
+                    android:ellipsize="marquee"
+                    android:id="@id/pkg"
+                    android:fadingEdge="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_xs"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:alpha="0.7" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+================================================================
+📁 5. مدير الملفات (file_manager_fragment.xml)
+================================================================
+المسار: res/layout/file_manager_fragment.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/spacing_sm"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/spacing_md" />
+</LinearLayout>
+
+================================================================
+💻 6. شاشة المحرر (code_editor_fragment.xml)
+================================================================
+المسار: res/layout/code_editor_fragment.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.tyron.code.ui.editor.impl.text.rosemoe.CodeEditorView
+        android:id="@id/code_editor"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:elevation="@dimen/elevation_xs" />
+
+    <FrameLayout
+        android:id="@id/top_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_sm">
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:layout_gravity="end"
+            android:id="@id/progressbar"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:indeterminate="true"
+            app:indicatorSize="20.0dip"
+            app:minHideDelay="@integer/material_motion_duration_long_2"
+            app:trackThickness="3.0dip" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/layout_editor_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>
+
+================================================================
+🎨 7. واجهة Template الحالية (wizard_template_item.xml)
+================================================================
+المسار: res/layout/wizard_template_item.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:gravity="center"
+    android:background="?selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8.0dip"
+    android:elevation="2.0dip"
+    app:strokeWidth="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="8.0dip"
+        android:paddingEnd="8.0dip">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@id/template_icon"
+            android:layout_width="120.0dip"
+            android:layout_height="170.0dip"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:elevation="2.0dip" />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:gravity="center_horizontal"
+            android:id="@id/template_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:maxLines="2" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+
+================================================================
+✨ 8. واجهة Template المحسنة (wizard_template_item_modern.xml)
+================================================================
+المسار: res/layout/wizard_template_item.xml (النسخة المحسنة)
+
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:gravity="center"
+    android:background="?selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_sm"
+    app:cardCornerRadius="@dimen/radius_lg"
+    app:cardElevation="@dimen/elevation_md"
+    app:strokeWidth="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="@dimen/spacing_md">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@id/template_icon"
+            android:layout_width="140.0dip"
+            android:layout_height="200.0dip"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:elevation="@dimen/elevation_sm"
+            app:shapeAppearanceOverlay="@style/RoundedCornersImage" />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:gravity="center_horizontal"
+            android:id="@id/template_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_md"
+            android:maxLines="2"
+            android:textStyle="bold" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+
+================================================================
+🎯 9. Style إضافي للصور المستديرة
+================================================================
+يُضاف إلى: res/values/styles.xml
+
+<style name="RoundedCornersImage">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">12.0dip</item>
+</style>
+
+================================================================
+📝 ملاحظات التطبيق
+================================================================
+
+1. نظام الألوان Ocean Wave:
+   - اللون الأساسي: Ocean Blue (#0EA5E9)
+   - اللون الثانوي: Warm Amber (#F59E0B)
+   - الخلفية الداكنة: Deep Ocean (#0C1E2E)
+   - السطح: Ocean Surface (#1E3A52)
+
+2. نظام الأبعاد (8dp Grid):
+   - التباعد: من 4dp إلى 48dp
+   - الحواف المستديرة: من 4dp إلى 28dp + دائري كامل
+   - الارتفاع: من 1dp إلى 12dp
+   - أحجام النصوص: من 12sp إلى 32sp
+   - أحجام الأيقونات: من 16dp إلى 48dp
+
+3. التحسينات على الواجهات:
+   - شريط أدوات أكبر (64dp)
+   - أيقونة التطبيق أكبر (80dp)
+   - أزرار أكبر وأوضح (64dp)
+   - تباعد متسق ومريح للعين
+   - حواف مستديرة عصرية
+   - ارتفاعات واضحة للعناصر
+
+4. واجهة Template المحسنة:
+   - كرت أكبر بحواف أكثر استدارة (16dp)
+   - صورة أكبر (140x200dp)
+   - صورة بحواف مستديرة
+   - نص عنوان عريض وواضح
+   - تباعد داخلي محسن (16dp)
+   - ارتفاع متوسط (4dp)
+
+================================================================
+🔧 كيفية التطبيق
+================================================================
+
+1. استبدل ملف colors.xml بالألوان الجديدة
+2. أضف الأبعاد الجديدة إلى نهاية ملف dimens.xml
+3. استبدل ملفات الـ layout المذكورة
+4. أضف style "RoundedCornersImage" إلى styles.xml
+5. أعد بناء التطبيق باستخدام APKTool
+6. وقّع على APK ثم ثبّته
+
+================================================================
+📱 APK الناتج
+================================================================
+
+الملف: codeassist_ocean_wave_v2_signed.apk
+الحجم: 93MB
+الموقع: C:/Users/ucobr/codeassist_ocean_wave_v2_signed.apk
+الحالة: مثبت ويعمل على محاكي Pixel 6 Pro ✓
+
+================================================================

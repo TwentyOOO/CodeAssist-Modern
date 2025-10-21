@@ -1,0 +1,14 @@
+<!-- أيقونة التصحيح الذكي -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+android:tint="?attr/colorControlNormal">
+<path
+android:fillColor="@android:color/black"
+android:pathData="M2.92,19.07c-1.23,-1.23 -1.23,-3.22 0,-4.45l9.19,-9.19c1.56,-1.56 4.1,-1.56 5.66,0l0.71,0.71c1.56,1.56 1.56,4.1 0,5.66l-9.19,9.19c-1.24,1.23 -3.23,1.23 -4.45,0l-1.92,-1.92zM18.36,6.64c-0.78,-0.78 -2.05,-0.78 -2.83,0l-9.19,9.19c-0.39,0.39 -0.39,1.02 0,1.41l1.92,1.92c0.39,0.39 1.02,0.39 1.41,0l9.19,-9.19c0.79,-0.78 0.79,-2.05 0,-2.83l-0.71,-0.7z"/>
+<path
+android:fillColor="@android:color/black"
+android:pathData="M16.24,11.48l-0.71,-0.71 -4.1,4.1 0.71,0.71z"/>
+</vector>

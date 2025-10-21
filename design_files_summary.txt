@@ -1,0 +1,72 @@
+=================================================
+📋 قائمة شاملة بجميع ملفات التصميم في CodeAssist
+=================================================
+
+📁 تصنيف الملفات حسب النوع:
+
+🎨 COLORS (الألوان):
+/c/Users/ucobr/codeassist_decoded/res/values/colors.xml
+/c/Users/ucobr/codeassist_decoded/res/values-v31/colors.xml
+
+🎭 STYLES & THEMES (الأنماط والثيمات):
+/c/Users/ucobr/codeassist_decoded/res/drawable/ic_baseline_style_24.xml
+/c/Users/ucobr/codeassist_decoded/res/values/styles.xml
+/c/Users/ucobr/codeassist_decoded/res/values-hdpi/styles.xml
+/c/Users/ucobr/codeassist_decoded/res/values-land/styles.xml
+/c/Users/ucobr/codeassist_decoded/res/values-large/styles.xml
+/c/Users/ucobr/codeassist_decoded/res/values-night/styles.xml
+/c/Users/ucobr/codeassist_decoded/res/values-sw600dp/styles.xml
+/c/Users/ucobr/codeassist_decoded/res/values-v28/styles.xml
+/c/Users/ucobr/codeassist_decoded/res/values-v31/styles.xml
+/c/Users/ucobr/codeassist_decoded/res/values-watch/styles.xml
+
+📐 LAYOUTS (التخطيطات):
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_action_bar_title_item.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_action_bar_up_container.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_action_menu_item_layout.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_action_menu_layout.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_action_mode_bar.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_action_mode_close_item_material.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_activity_chooser_view.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_activity_chooser_view_list_item.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_alert_dialog_button_bar_material.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_alert_dialog_material.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_alert_dialog_title_material.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_cascading_menu_item_layout.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_dialog_title_material.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_expanded_menu_layout.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_list_menu_item_checkbox.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_list_menu_item_icon.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_list_menu_item_layout.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_list_menu_item_radio.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_popup_menu_header_item_layout.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_popup_menu_item_layout.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_screen_content_include.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_screen_simple.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_screen_simple_overlay_action_mode.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_screen_toolbar.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_search_dropdown_item_icons_2line.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_search_view.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_select_dialog_material.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/abc_tooltip.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/add_dependency_dialog.xml
+/c/Users/ucobr/codeassist_decoded/res/layout/add_new_library_dialog.xml
+
+📏 DIMENSIONS (الأبعاد):
+/c/Users/ucobr/codeassist_decoded/res/values/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-h320dp-port/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-h360dp-land/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-h480dp-land/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-h550dp-port/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-h720dp/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-land/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-large/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-small/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-sw600dp/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-v28/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-w320dp-land/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-w360dp-port/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-w480dp-port/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-w600dp-land/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-w820dp/dimens.xml
+/c/Users/ucobr/codeassist_decoded/res/values-xlarge/dimens.xml

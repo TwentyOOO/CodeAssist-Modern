@@ -1,0 +1,43 @@
+plugins {
+id 'com.android.application'
+}
+
+android {
+compileSdk 34 // أو الإصدار اللي بتستخدمه (يفضل 33 أو 34 للتوافق مع مكتبات حديثة)
+
+defaultConfig {
+applicationId "com.aide" // نفس اسم الحزمة اللي في الكود
+minSdk 21 // الحد الأدنى لإصدار Android (يفضل 21 أو أعلى لـ Rosemoe)
+targetSdk 34
+versionCode 1
+versionName "1.0"
+
+testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+}
+
+buildTypes {
+release {
+minifyEnabled false
+proguardRules getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+}
+}
+compileOptions {
+sourceCompatibility JavaVersion.VERSION_1_8
+targetCompatibility JavaVersion.VERSION_1_8
+}
+}
+
+dependencies {
+implementation 'androidx.appcompat:appcompat:1.6.1' // لدعم AppCompatActivity
+implementation 'androidx.core:core:1.12.0' // مكتبة أساسية لـ AndroidX
+implementation 'io.github.Rosemoe.sora-editor:editor:0.21.2' // مكتبة Rosemoe CodeEditor
+implementation 'io.github.Rosemoe.sora-editor:editor-textmate:0.21.2' // لدعم TextMateColorScheme
+
+// اختياري: إذا كنت تستخدم مكتبات إضافية، أضفها هنا
+implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // لو كنت تستخدم ConstraintLayout في XML
+
+// مكتبات الاختبار (إذا كنت بتعمل اختبارات)
+testImplementation 'junit:junit:4.13.2'
+androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

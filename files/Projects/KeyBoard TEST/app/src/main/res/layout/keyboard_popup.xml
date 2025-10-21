@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+هذا الملف يحدد شكل النافذة المنبثقة التي تظهر عند الضغط المطول.
+وجود هذا الملف بالشكل الصحيح ضروري لعمل الميزة.
+-->
+<android.inputmethodservice.KeyboardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/special_key_background"
+android:keyBackground="@drawable/key_background_modern"
+android:keyTextColor="@color/key_text_color"
+android:padding="4dp" />

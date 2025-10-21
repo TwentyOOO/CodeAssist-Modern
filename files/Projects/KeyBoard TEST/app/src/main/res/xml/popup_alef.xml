@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+android:keyWidth="25%p"
+android:horizontalGap="0px"
+android:verticalGap="0px"
+android:keyHeight="50dp">
+<Row>
+<Key android:codes="1571" android:keyLabel="أ" android:keyEdgeFlags="left"/>
+<Key android:codes="1573" android:keyLabel="إ"/>
+<Key android:codes="1570" android:keyLabel="آ"/>
+<Key android:codes="1569" android:keyLabel="ء" android:keyEdgeFlags="right"/>
+</Row>
+</Keyboard>

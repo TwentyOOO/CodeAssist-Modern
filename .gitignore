@@ -1,0 +1,21 @@
+# APK files
+*.apk
+*.jar
+
+# Decoded APK directories (too large)
+codeassist_decoded/
+
+# Build files
+*.dex
+*.so
+
+# Cache and temporary files
+files/cache/
+
+# Large assets
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,10 @@
+<!-- app/src/main/res/values/dimens.xml -->
+<resources>
+<dimen name="key_height">52dp</dimen>
+<dimen name="key_radius">12dp</dimen>
+<dimen name="key_vertical_gap">6dp</dimen>
+
+<dimen name="spacing_s">8dp</dimen>
+<dimen name="spacing_m">12dp</dimen>
+<dimen name="spacing_l">20dp</dimen>
+</resources>

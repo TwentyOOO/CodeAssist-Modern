@@ -1,0 +1,9 @@
+<resources>
+<string name="app_name">ViewEditor</string>
+<string name="export_button">تصدير الآن</string>
+<string name="clear_button">مسح السجل</string>
+<string name="auto_export">تصدير تلقائي</string>
+<string name="status_ready">جاهز للبدء</string>
+<string name="status_exporting">جاري التصدير...</string>
+<string name="status_monitoring">المراقبة نشطة</string>
+</resources>

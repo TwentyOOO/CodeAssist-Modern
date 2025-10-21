@@ -4,6 +4,7 @@ codeassist_decoded/
 # Build files
 decoded.zip
 *.keystore
+*.jks
 codeassist_redesigned.apk
 
 # OS files

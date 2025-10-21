@@ -37,7 +37,7 @@
 
 ### الإصدار الحالي: v1.0.0
 
-**[تحميل CodeAssist-Modern.apk](https://github.com/YOUR_USERNAME/CodeAssist-Modern/releases/latest/download/CodeAssist-Modern.apk)** (93MB)
+**[تحميل CodeAssist-Modern.apk](https://github.com/TwentyOOO/CodeAssist-Modern/releases/latest/download/CodeAssist-Modern.apk)** (93MB)
 
 ## المتطلبات 📋
 - Android 8.0 (API 26) أو أحدث

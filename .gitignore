@@ -1,6 +1,11 @@
 # Decoded directory (contains files with paths too long for Windows/Git)
 codeassist_decoded/
 
+# Build files
+decoded.zip
+*.keystore
+codeassist_redesigned.apk
+
 # OS files
 .DS_Store
 Thumbs.db

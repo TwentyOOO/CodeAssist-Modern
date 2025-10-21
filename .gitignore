@@ -4,6 +4,7 @@ decoded_apk/
 decoded_working/
 test_decode/
 android-sdk/
+original_apk/
 
 # Build files
 decoded.zip

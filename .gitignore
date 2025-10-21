@@ -2,6 +2,8 @@
 codeassist_decoded/
 decoded_apk/
 decoded_working/
+test_decode/
+android-sdk/
 
 # Build files
 decoded.zip

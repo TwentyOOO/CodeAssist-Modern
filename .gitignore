@@ -1,5 +1,7 @@
-# APK files
+# Android APK files
 *.apk
+*.ap_
+*.aab
 *.jar
 
 # Decoded APK directories (too large)
@@ -8,6 +10,18 @@ codeassist_decoded/
 # Build files
 *.dex
 *.so
+build/
+*/build/
+
+# Gradle files
+.gradle/
+
+# Local configuration file
+local.properties
+
+# IntelliJ
+*.iml
+.idea/
 
 # Cache and temporary files
 files/cache/
@@ -15,7 +29,11 @@ files/cache/
 # Large assets
 *.zip
 
-# System files
+# Signing files
+*.jks
+*.keystore
+my-release-key.keystore
+
+# OS files
 .DS_Store
 Thumbs.db
-
